@@ -3,7 +3,7 @@
 Questo e' un progetto di test per "testare":
 - il template di Docs Italia come base
 - un override INGV del template
-- la compilazione e publbicazione su GitHub Pages
+- la compilazione e pubblicazione su GitHub Pages
 
 ## Debug sul proprio PC
 ```
