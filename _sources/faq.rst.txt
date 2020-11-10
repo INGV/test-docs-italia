@@ -1,6 +1,5 @@
-#
-# FAQ for data.ingv.it
-#
+..
+FAQ for data.ingv.it
 
 ###################################################
 Frequently Asked Questions sul portale data.ingv.it
