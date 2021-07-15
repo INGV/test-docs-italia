@@ -36,9 +36,8 @@ jobs:
             pwd
             ls -l
             mkdir -p _build/html/
-            cd en
-            make html
-            cp -R _build/html ../_build/html/en
+            cd languages
+            for LANG in $( ls ); do cd ${LANG}; make html; cp -R _build/html ../../_build/html/${LANG}; cd .. ; done
             # make latexpdf
             # cp _build/latex/*.pdf _build/html/
             # make epub
