@@ -13,5 +13,4 @@ On the chapter two we'll present ...
 
    titolo-capitolo-1.rst
    titolo-capitolo-2.rst
-   titolo-capitolo-3.rst
    faq.rst
