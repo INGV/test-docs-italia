@@ -43,7 +43,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['../docs-italia-ingv-theme-template/']
+templates_path = ['../../docs-italia-ingv-theme-template/']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -66,9 +66,9 @@ html_theme = 'docs_italia_theme'
 html_theme_path = [docs_italia_theme.get_html_theme_path()]
 html_title = "test-docs-italia"
 html_show_sourcelink = False
-html_favicon = "../docs-italia-ingv-theme-template/static/images/favicon.ico"
-html_logo = "../docs-italia-ingv-theme-template/static/images/logo_75_transp.png"
-latex_logo = '../docs-italia-ingv-theme-template/static/images/logo_75_transp.png'
+html_favicon = "../../docs-italia-ingv-theme-template/static/images/favicon.ico"
+html_logo = "../../docs-italia-ingv-theme-template/static/images/logo_75_transp.png"
+latex_logo = '../../docs-italia-ingv-theme-template/static/images/logo_75_transp.png'
 html_baseurl = 'docs'
 smartquotes = False
 language = "it"
@@ -82,4 +82,4 @@ source_suffix = '.rst'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['../docs-italia-ingv-theme-template/static']
+html_static_path = ['../../docs-italia-ingv-theme-template/static']
