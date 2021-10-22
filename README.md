@@ -5,7 +5,10 @@ Questo e' un progetto di test per "testare":
 - un override INGV del template
 - la compilazione e pubblicazione su GitHub Pages
 
-## Debug sul proprio PC
+## Output su GitHub Page
+- https://ingv.github.io/test-docs-italia/
+
+## Debug in locale
 ```
 $ docker run -it -v /tmp/temp_dir:/tmp/temp_dir --rm python:3.7 bash
 . . .
@@ -35,5 +38,3 @@ $ docker run -it -v /tmp/temp_dir:/tmp/temp_dir --rm python:3.7 bash
 ### Sphinx:
 - https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-## Sito GitHub Page
-- https://ingv.github.io/test-docs-italia/
